@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restrição de data</title>
+</head>
+
+<body>
+    <h2>Restrições de campo de data</h2>
+    <form action="/action_page.php">
+        <label for="datemin">Insira uma data após 2000-01-01:</label>
+        <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+
+        <label for="datemax">Insira uma data anterior a 1980-01-01:</label>
+        <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
